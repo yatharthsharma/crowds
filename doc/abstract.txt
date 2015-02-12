@@ -1,5 +1,0 @@
-Exploring the Wisdom of Crowds
-
-At a 1906 county fair, the statistician Francis Galton watched as eight hundred people competed to guess the weight of an ox. He famously observed that the median of the guesses, 1207 pounds, was within 1% of the true weight. Since then, this "wisdom of the crowd" effect has been documented in a variety of domains, ranging from trivia questions to combinatorial optimization. Yet, perhaps surprisingly, we have little understanding of why, or even when, the phenomenon holds.
-
-In this project, we will leverage the wisdom of the crowd (you!) to systematically investigate the wisdom of crowds. We will develop a large, online experiment, in which each team creates a module to study the wisdom of the crowd in a specific domain. Ideally, each team will collectively have experience in web development and statistical analysis. At the end of the project, we aim to submit our results to a top computer science conference, such as ICWSM, EC, or WWW.
