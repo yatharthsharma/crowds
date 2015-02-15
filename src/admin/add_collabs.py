@@ -1,6 +1,11 @@
+# script to add users to a github repository
 #
 # usage: cat users.txt | python add_collabs.py
+# 
+# the script assumes that a file named .github-creds is in the 
+# local directory with one line formatted as: username password
 #
+# update the repo parameter below before running
 
 import requests
 import sys
