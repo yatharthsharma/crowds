@@ -38,14 +38,14 @@ Visual inspection of the data exhibited obviously erroneous data points which we
 
 \section*{Summary Statistics}
 
-The table below represent summary statistics for the in-class survey results. After the removal of erroneous data points, a total of 83 data points remained. The Rank metric indicates the percentile rank of the metric (mean, geometric mean, median, etc.) relative to the crowd responses in terms of the distance from the correct answer. \\
+Tables 1 and 2 below represent summary statistics for the in-class survey results. After the removal of erroneous data points, a total of 83 data points remained. The Rank metric indicates the percentile rank of the metric (mean, geometric mean, median, etc.) relative to the crowd responses in terms of the distance from the correct answer. \\
 
 The histograms in Figures 1-4 show the distribution of the responses. The solid line indicates the correct answer and the dashed line indicates the median guess of participants.
 
 
 \begin{table}[h]
 \begin{adjustbox}{max width=\textwidth}
-\begin{tabular}{|l||r|r||r|r|r|r|r|r|r|r|r|r|r}
+\begin{tabular}{|l|r||r|r|r|r|r|r|r|r|r|r|r|r}
 \hline
 Task & Correct value & Mean & RankMean & Median & RankMedian & TruncMean & RankTruncMean & GeoMean & RankGeoMean \\
 \hline
@@ -60,6 +60,35 @@ PakistanRuns & 224 & 304.82 & 0.07 & 250 & 0.66 &     252.18 & 0.58 & 253.95 & 0
 \caption{Summary Statistics}
 \label{stats}
 \end{table} 
+
+
+
+\begin{table}[h]
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{|l||r|r||r|r|r|r|}
+\hline
+Task & Correct value & Nr Participants & Min & Max & St.Dev & Skewness \\
+\hline
+IndiaSize & $3,287,590$ & 83 & 100 & $100,000,000$ & $19,629,310$ & 3.59\\
+Painting & 1890 &  83 & 1750  & 1960 & 63.69 & 0.21 \\
+Dots  & $1,149$ &  83 & 10  & $5,000,000$ & 558,207.40 & 8.33 \\
+IndiaRuns & 300 &  83 & 70 & $1,234$ & 137.73 & 5.25\\
+PakistanRuns & 224 &  83 & 50  &  $4,312$ &  454.95 & 8.27 \\
+\hline
+\end{tabular}
+\end{adjustbox}
+\caption{Summary Statistics}
+\label{stats}
+\end{table} 
+
+ 
+
+ 
+
+
+
+    
+
 
 
 				
