@@ -1,7 +1,7 @@
 Rating[0-1]	Short Description	Description	Task-ID
 0	Expected number of questions in our last video session	They are required to give a prediction on the number of of questions they expect to be asked in our last online session.	62
-0	"Predict the winner of ""Who wants to be a Millionaire """	"Given the bio and resume of the contenstants on the show, predict who will be the winner"	53
-0	Predict if a Youtube video will go viral	"Given some video, the person has to predict if there are chances of it becoming viral"	125
+1	"Predict the winner of ""Who wants to be a Millionaire """	"Given the bio and resume of the contenstants on the show, predict who will be the winner"	53
+1	Predict if a Youtube video will go viral	"Given some video, the person has to predict if there are chances of it becoming viral"	125
 0	predicting the no. of deaths and births	Given the population of a particular city (say New Delhi) predict the no. of births and deaths that will take place in the city in the next one month 	149
 0	Predict the percentage of correctness of a crowd	"Two or more crowds ,independent of each other predicting the level of truthfulness among each other"	36
 0	Predict the Beats Per minute for an audio clip	Given 15 second audio clip predict the number of beats(of a percussion instrument) in an audio clip (Audio clip has multiple instruments)	66
