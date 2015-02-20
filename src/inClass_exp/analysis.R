@@ -141,34 +141,66 @@ m <- ggplot(PlotData, aes(x=x))
 m <- m + geom_histogram()
 m <- m + scale_x_continuous('\nYear')
 m <- m + scale_y_continuous('Count\n')
+m
 ggsave(plot=m, file=paste0(output_dir, 'painting.pdf'), width=5, height=5)
 
 #
-# Painting
+# Dots
 #
 
-PlotData = data.frame(x=Responses$Year)
+PlotData = data.frame(x=Responses$Dots)
 m <- ggplot(PlotData, aes(x=x))
 m <- m + geom_histogram()
-m <- m + scale_x_continuous('\nYear')
+m <- m + geom_vline(xintercept = 1149) 
+m <- m + geom_vline(xintercept = 700, linetype="longdash") 
+m <- m + scale_x_continuous('\nDots',limits = c(0,10000))
 m <- m + scale_y_continuous('Count\n')
-ggsave(plot=m, file=paste0(output_dir, 'painting.pdf'), width=5, height=5)
+m
+ggsave(plot=m, file=paste0(output_dir, 'dots.pdf'), width=5, height=5)
+
+#
+# Runs India
+#
+
+PlotData = data.frame(x=Responses$IndiaRuns)
+m <- ggplot(PlotData, aes(x=x))
+m <- m + geom_histogram()
+m <- m + geom_vline(xintercept = 300) 
+m <- m + geom_vline(xintercept = 280, linetype="longdash") 
+m <- m + scale_x_continuous('\nRuns India',limits = c(0,500))
+m <- m + scale_y_continuous('Count\n')
+m
+ggsave(plot=m, file=paste0(output_dir, 'runsindia.pdf'), width=5, height=5)
+
+#
+# Runs Pakistan
+#
+
+PlotData = data.frame(x=Responses$PakistanRuns)
+m <- ggplot(PlotData, aes(x=x))
+m <- m + geom_histogram()
+m <- m + geom_vline(xintercept = 224) 
+m <- m + geom_vline(xintercept = 250, linetype="longdash") 
+m <- m + scale_x_continuous('\nRuns Pakistan',limits = c(0,500))
+m <- m + scale_y_continuous('Count\n')
+m
+ggsave(plot=m, file=paste0(output_dir, 'runspakistan.pdf'), width=5, height=5)
+
+#
+# India Landmass
+#
+
+PlotData = data.frame(x=Responses$India)
+m <- ggplot(PlotData, aes(x=x))
+m <- m + geom_histogram()
+m <- m + geom_vline(xintercept = 3287590) 
+m <- m + geom_vline(xintercept = 1500000, linetype="longdash") 
+m <- m + scale_x_continuous('\nIndia Landmass',limits = c(0,10000000))
+m <- m + scale_y_continuous('Count\n')
+m
+ggsave(plot=m, file=paste0(output_dir, 'india.pdf'), width=5, height=5)
 
 
-NrDots <- summarize(var=Questions$Dots, 
-			   TrueValue=Answers[2], 
-			   name='Number of Dots')
 
-RunsIndia  <- summarize(var=Questions$IndiaRuns, 
- 			       TrueValue=Answers[3], 
-			       name='Number of Runs by India')
-
-RunsPakistan  <- summarize(var=Questions$PakistanRuns, 
-				    TrueValue=Answers[4], 
-				    name='Number of Runs by Pakistan')
-
-IndiaLandmass <- summarize(var=Questions$India, 
-			          TrueValue=Answers[5], 
-	 			    name='Landmass of India (km2)')
 
 
