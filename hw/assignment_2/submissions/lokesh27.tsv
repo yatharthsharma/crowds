@@ -81,7 +81,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Predicting sequel number 	Given a screenshot from a particular movie sequel and crowd is asked to which sequel number does it belong	101
 1	Guess the air travel time between two cities	"Give two cities, ask approx. travel time between them"	179
 0	predict a project real dealine and budget	"Given the details about project targets, predict its real dealine and budget"	52
-1Predict the future usage of electricity for a country	"Given the past trends of electricty usage for a country, their populations statistics and industrail growth"	105
+1 Predict the future usage of electricity for a country	"Given the past trends of electricty usage for a country, their populations statistics and industrail growth"	105
 1	Predict the direction of penalty shot.	Present subjects a picture of a footballer(soccer player) and his previous three attempted penalty kick directions	12
 0	Suggesting potential development	"Given the area and its details, along with the problems, suggest the developmental project need along with the budget for the community. The crowd shall be limited to the people from that particular community"	29
 1	Identifying the color of an object	"given a picture ,guess the color of the object"	82
