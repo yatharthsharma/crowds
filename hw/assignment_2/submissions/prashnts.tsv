@@ -1,41 +1,41 @@
 Rating[0-1]	Short Description	Description	Task-ID
-0	Guess the price range of the suite	"Given an image of a hotel suite and location, guess the price range of it"	158
+1	Guess the price range of the suite	"Given an image of a hotel suite and location, guess the price range of it"	158
 0	Suggesting potential buy and sell calls for a particular stock	"Provide information in the form of Fundamental Analysis (details regarding the company's background, frequency of dividends provided etc) as well as Technical Analysis(Graphs on how the stock as behaved in the past). Get inputs from the crowd given these information and map the predictions with the trend taken by the stock in the next few weeks."	180
-0	Predict if a certain player will be bought/sold by a football club in the English Premier League.	Presents the subjects with the stats of  the player along with existing squads of various teams and predict if the player transfer may take place	37
-0	"Prediction of rate of real estate in metro cities based on civil factor"	"Based on the past data and current civil factor cost predict the future(2 yrs later) rate of real estates "	68
-0	Predict the next move of a chess player	"Provided the previous moves of the players and current state of the chessboard, predict the next move."	127
-0	 Predict the demographics of user based on the query patterns	Classifying the queries of an internet user and capturing the online behavior of the user (user clicks on web) for the behavioral tagetting for the search engine and change the result set according to the predicted demographics	155
-0	Whether a normal person will achieve what he aims for in his life	Each person has a dream of achieving something in his life but all are not able to do so. We will survey people from all age groups and grood diverse backgrounds to see the results	2
-0	Predicting the angle of swing of a fast bowler/angle of turn by a spinner	Given the video of a ball being bowled/ the hawk eye trajectory of the ball	18
-0	Determining if the accused person is guilty 	"Given the details about the case(witness statements,court proceeding,jury's opinions)"	89
-0	Guessing a celebrity	Given the rest of the body and 4 options for the face. Ask them to guess the right option.	77
-0	Risk evaluation.	"Given different scenarios encompassing risk, for example air travel, living near a factory, etc. the respondent must give a probability estimate of mortality."	26
+1	Predict if a certain player will be bought/sold by a football club in the English Premier League.	Presents the subjects with the stats of  the player along with existing squads of various teams and predict if the player transfer may take place	37
+1	"Prediction of rate of real estate in metro cities based on civil factor"	"Based on the past data and current civil factor cost predict the future(2 yrs later) rate of real estates "	68
+1	Predict the next move of a chess player	"Provided the previous moves of the players and current state of the chessboard, predict the next move."	127
+1	 Predict the demographics of user based on the query patterns	Classifying the queries of an internet user and capturing the online behavior of the user (user clicks on web) for the behavioral tagetting for the search engine and change the result set according to the predicted demographics	155
+1	Whether a normal person will achieve what he aims for in his life	Each person has a dream of achieving something in his life but all are not able to do so. We will survey people from all age groups and grood diverse backgrounds to see the results	2
+1	Predicting the angle of swing of a fast bowler/angle of turn by a spinner	Given the video of a ball being bowled/ the hawk eye trajectory of the ball	18
+1	Determining if the accused person is guilty 	"Given the details about the case(witness statements,court proceeding,jury's opinions)"	89
+1	Guessing a celebrity	Given the rest of the body and 4 options for the face. Ask them to guess the right option.	77
+1	Risk evaluation.	"Given different scenarios encompassing risk, for example air travel, living near a factory, etc. the respondent must give a probability estimate of mortality."	26
 0	Predict success of a film based on the cast and crew	"Presenting the participatns with the cast and crew of a film, based on which they would guess the possibility of movie becoming a success or a failure"	148
-0	Number of retweets	"Given a tweet, predict the number of retweets it gets (duration of study may be specified)"	117
-0	Choice of major	Predict the percentage of students who would would opt for a particular major in incoming freshman year.	57
-0	Predict sales for a product	Given current trends estimate whether a product will sell or not	139
+1	Number of retweets	"Given a tweet, predict the number of retweets it gets (duration of study may be specified)"	117
+1	Choice of major	Predict the percentage of students who would would opt for a particular major in incoming freshman year.	57
+1	Predict sales for a product	Given current trends estimate whether a product will sell or not	139
 0	Predict height of a player	Average height of a baskteball player is given and the maximum height ever observed is given with that particular player's image.	65
-0	predict the distance between places	"given two places,predict what is the distance between the two places"	119
-0	Estimating the standby time of a phone	"Given a fully charged iPhone , switched off, for how many days the battery will last ? (standby)"	13
-0	Guess the popularity of a brand	"Present the subjects with 2 images of a single commodity sold by 2 different brands in a foreign market and ask them to guess the more genuine/popular of the two. (In order to determine the effect of packaging, cover design and brand power on the sales of products) "	175
+1	predict the distance between places	"given two places,predict what is the distance between the two places"	119
+1	Estimating the standby time of a phone	"Given a fully charged iPhone , switched off, for how many days the battery will last ? (standby)"	13
+1	Guess the popularity of a brand	"Present the subjects with 2 images of a single commodity sold by 2 different brands in a foreign market and ask them to guess the more genuine/popular of the two. (In order to determine the effect of packaging, cover design and brand power on the sales of products) "	175
 0	Guessing the result of a cricket match	People watching the match will be surveyed and the anwer will be like the team wons or not.	3
 0	Match the historical monumnet with its country	Click on the country on a world map to which the monument belongs.	111
-0	Predict battery life for Laptop	"Given a list of activities which are being run on the laptop, predict for how much longer the laptop will run"	30
+1	Predict battery life for Laptop	"Given a list of activities which are being run on the laptop, predict for how much longer the laptop will run"	30
 0	predict a project real dealine and budget	"Given the details about project targets, predict its real dealine and budget"	52
 0	Predict the Beats Per minute for an audio clip	Given 15 second audio clip predict the number of beats(of a percussion instrument) in an audio clip (Audio clip has multiple instruments)	66
-0	Guessing the least possible distance between two cities	Names of two famous cities will be given and asked to identify the least possible distance between them	186
+1	Guessing the least possible distance between two cities	Names of two famous cities will be given and asked to identify the least possible distance between them	186
 0	Suggesting potential development	"Given the area and its details, along with the problems, suggest the developmental project need along with the budget for the community. The crowd shall be limited to the people from that particular community"	29
 0	Predict the complexity of a task	"Given a computing task and an algorithm to solve it, predict the complexity of the task without actually looking at the code"	70
 0	Guess the top 3 artists/songs of the Billboard music charts	"Given a list of input audio files and artist information, predict which is going to top the charts"	87
 0	Stock Market Prediction	The crowd shall guess the next ups and downs in the stock market which usually be close to the actual observations	182
 0	Predict the results of an election based on Twitter discussion	Twitter data about the elections will be used to predict who wins the election	24
 0	Predict the age of a carbon sample	"Given a sample of carbon maybe noramal coal or any other isotope ,predict its age"	35
-0	Which advertisement suits best to a video	Given a video guess the most appropriate ad for it.	19
-0	Predict the no of people who use mobile data	Given the no of people who have phones that can acccesss internet	74
+1	Which advertisement suits best to a video	Given a video guess the most appropriate ad for it.	19
+1	Predict the no of people who use mobile data	Given the no of people who have phones that can acccesss internet	74
 0	Guess the time difference between in two cities	"given two cities, the user will guess the time difference between two cities. for eg + 9hrs , - 10 hrs etc"	115
 0	Predict success of a film based on the poster and title	Presenting the participants with the title and poster of the film and get their views about the possibility of movie becoming a success or a disaster	147
 0	Predict the exchange rate of the currencies of two countries	"Given the GDP of two countries, the crowd is asked to predict the currency exchange rate"	143
-0	Estimate the quantity of wheat that might be produced from wheat fields 	The people should be shown the wheat fields and without specifing the details of the cultivation and other specifications  they have to predict the final quantity of wheat that can be producded	106
+1	Estimate the quantity of wheat that might be produced from wheat fields 	The people should be shown the wheat fields and without specifing the details of the cultivation and other specifications  they have to predict the final quantity of wheat that can be producded	106
 0	Predicting the virality of a tweet or post on social media	The number of favourites or retweet (or anyother terminology of the particular social media under consideration) a particular tweet/post may amass in a given period of time	176
 0	Guessing the age of a person	"Given an image of a persong, identifying his/her age"	141
 0	Predict the weight of a person	Present the subjects with a picture of the person	43
