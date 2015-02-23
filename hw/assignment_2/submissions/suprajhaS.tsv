@@ -138,7 +138,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 1	Predict whether the stock of a company will increase/decrease	"Given the name of company, predict whether its stocks value will increase or decrease"	124
 0	Estimate the winner of a singing contest	Estimate the winner of a singing contest	156
 0	Whether a normal person will achieve what he aims for in his life	Each person has a dream of achieving something in his life but all are not able to do so. We will survey people from all age groups and grood diverse backgrounds to see the results	2
-1	Guess the ethnicity of a person	Present the subjects with a photograph of a man/woman/child and ask them to predict the ethnicity of the person. (To confirm how accurately people identify slightest of ethnic cues)	172
+0	Guess the ethnicity of a person	Present the subjects with a photograph of a man/woman/child and ask them to predict the ethnicity of the person. (To confirm how accurately people identify slightest of ethnic cues)	172
 1	estimate the number of different stars which we can see through naked eye on one night from a fixed place	taking the input from a diverse audience from different states in different countries on a fixed day	23
 1	Predicting cost of a painting.	"Given the picture of a painting, guess the value of the painting, in terms of how much it would be bid for at an auction."	132
 1	Metaquestion on a question.	"Given certain outreach information, the respondent must answer ""How many people would be answering this question?"""	97
@@ -149,7 +149,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 1	Predict the complexity of a task	"Given a computing task and an algorithm to solve it, predict the complexity of the task without actually looking at the code"	70
 1	Primary Health Prediction	"Predicting the state of health of a person based on the symptoms, and probably suggest the disease"	181
 1	guess the typr of music	"given an audio file,user have to identify which kind of music is being played"	121
-1	Pedict the beauty competition/ body building competition winners based on photographs	"Shown a set of pictures of participants from some beauty/body building competition, predict the winner"	150
+0	Pedict the beauty competition/ body building competition winners based on photographs	"Shown a set of pictures of participants from some beauty/body building competition, predict the winner"	150
 1	Size of a crowd	"Given a picture of a concert or any other place with a large number of people, guess the number of people present"	15
 1	Estimating weights of objects.	"Given images/names of everyday-objects, estimate how much the object would weigh."	133
 1	Predict the mood/emotion of a person 	"Given the photograph of a person, predict the emotion/mood of the person"	153
