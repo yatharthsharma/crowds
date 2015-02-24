@@ -1,6 +1,6 @@
 Rating[0-1]	Short Description	Description	Task-ID
-0	"Predict the winner of ""Who wants to be a Millionaire """	"Given the bio and resume of the contenstants on the show, predict who will be the winner"	53
-0	Guess the number of upvotes that an answer got on Quora	Show the question and the answer. Ask to guess the number of upvotes that it got.	86
+1	"Predict the winner of ""Who wants to be a Millionaire """	"Given the bio and resume of the contenstants on the show, predict who will be the winner"	53
+1	Guess the number of upvotes that an answer got on Quora	Show the question and the answer. Ask to guess the number of upvotes that it got.	86
 0	Predict the perfectness of geometrical shapes	"The crowd has to predict based on images that the geometrical figure like a circle, parallelogram, square, etc is perfect or not"	39
 0	predict whether stampede will occur during haj or kumbha mela	"Given the input video for the haj or kumbha mela, or the count of people"	16
 0	Gold and Silver Rate Prediction	The crowd can predict the next changes in the price of Gold and silver which could be close to the actual changes	138
@@ -11,12 +11,12 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Guess the number of times the ball bounces	"a short video clip showing a bouncing ball, the crowd has to guess the number of times the ball bounces"	45
 0	Predict the speed of the ball bowled during a cricket match	"Given the video of a ball bowled, predict its speed in kmph"	96
 0	Predict the exchange rate of the currencies of two countries	"Given the GDP of two countries, the crowd is asked to predict the currency exchange rate"	143
-0	Predicting a company's next quarter revenue	"Given a company name and some background details, predict the next quarter's revenue"	54
+1	Predicting a company's next quarter revenue	"Given a company name and some background details, predict the next quarter's revenue"	54
 0	Number of retweets	"Given a tweet, predict the number of retweets it gets (duration of study may be specified)"	117
 0	"Prediction of rate of real estate in metro cities based on civil factor"	"Based on the past data and current civil factor cost predict the future(2 yrs later) rate of real estates "	68
 0	Estimate the net worth of a startup after a year of beginning operation	"Given the startup idea, and the name of companies already building similar products, the crowd is asked to predict the net worth of the startup after a year of it beginning operations"	33
 0	Predict the amount spent for a party (treat)	"Given the occasion, place and number of people attending a party, predict the bill to be paid by the host"	5
-0	Predict the genre of a book	Predict the genre to which a book belongs	168
+1	Predict the genre of a book	Predict the genre to which a book belongs	168
 0	Predict the Beats Per minute for an audio clip	Given 15 second audio clip predict the number of beats(of a percussion instrument) in an audio clip (Audio clip has multiple instruments)	66
 0	Predict the percentage of correctness of a crowd	"Two or more crowds ,independent of each other predicting the level of truthfulness among each other"	36
 0	Predicting sequel number 	Given a screenshot from a particular movie sequel and crowd is asked to which sequel number does it belong	101
