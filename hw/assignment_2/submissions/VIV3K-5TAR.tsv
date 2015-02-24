@@ -26,7 +26,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Guess the winner of elections	"Given a list of candidates contesting in elections and their previous track records, predict who is going to win the elections"	123
 0	Choice of major	Predict the percentage of students who would would opt for a particular major in incoming freshman year.	57
 1	predict the average grade point	Ask all the students in a batch to estimate the average grade point of their batch. Compare the median of this data with the actual average of the CGPA of the batch. 	10
-?	Predicting whether the metro coming next to the station will be crowded or not	People standing on the platforms will be surveyed for this and the answer will be in binary.	4
+0	Predicting whether the metro coming next to the station will be crowded or not	People standing on the platforms will be surveyed for this and the answer will be in binary.	4
 0	Predict if it will rain	"Given an image of sky, predict if it will rain"	93
 1	Guess the durability of a common item found in homes	"Presented the type of object and with brand, visual and tactile information predict the time period for which the item can be used for effectively"	38
 1	guess if the cost of crude oil will increase or not	graph depicting cost of crude oil at different intervals of time	122
